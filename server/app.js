@@ -1,5 +1,13 @@
 const express = require('express');
 const cors = require('cors');
+
+app.use(cors({
+  origin: [
+    'https://ai-ecommerce-client.onrender.com ',
+    'http://localhost:3000'
+  ],
+  credentials: true
+}));
 const dotenv = require('dotenv');
 
 const path = require('path');
