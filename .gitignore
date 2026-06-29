@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE/OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Lock files (optional - remove if you want to track these)
+package-lock.json
+yarn.lock
+
+# Misc
+.cache/
+.next/
+out/

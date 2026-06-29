@@ -1,0 +1,13 @@
+{
+  "name": "ai-ecommerce-root",
+  "version": "1.0.0",
+  "description": "Root workspace scripts to manage both client and server easily.",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install-all": "npm run install:server && npm run install:client",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "npx -y concurrently \"npm run server\" \"npm run client\""
+  }
+}
