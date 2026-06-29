@@ -1,13 +1,22 @@
-# Production-Ready AI-Powered E-Commerce Platform
+# AI-Ecommerce Website
 
-A complete, fullstack AI-powered E-Commerce application featuring robust JWT Authentication, local/global AI Semantic Search, automatic DB seeding (200+ products), cart syncing, order tracking, and an Admin dashboard.
+An AI-powered e-commerce platform built with React and Node.js.
+
+## 🌐 Live Demo
+**[Visit the App](https://ai-ecommerce-website-1-h3uk.onrender.com)**
+
+## Features
+- AI-powered product search
+- User authentication
+- Shopping cart & checkout
+- Admin dashboard
+- 160+ products
 
 ## Tech Stack
-
-- **Frontend**: React (Vite), React Router DOM, Tailwind CSS, Axios, Context API
-- **Backend**: Node.js, Express.js, JWT, bcryptjs
-- **Database**: MongoDB & Mongoose
-- **AI**: Built-in TF-IDF Local Semantic Search and Gemini API integration for generating high-quality Vector Search embeddings.
+- Frontend: React + Vite + Tailwind CSS
+- Backend: Node.js + Express
+- Database: MongoDB Atlas
+- Hosting: Render
 
 ## Getting Started
 
